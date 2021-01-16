@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{2CC66DB0-C718-6319-CDBD-4F9A43C4458C}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Zombie/ZombineBehaviour.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Zombie/ZombineBehaviour.cs" Line="61" Column="43" />
+      <File FileName="Assets/Scripts/Zombie/ZombieMelee.cs" Line="16" Column="37" />
+      <File FileName="Assets/Scripts/Hero/HeroController.cs" Line="113" Column="1" />
+      <File FileName="Assets/Scripts/Stuffs/Utility.cs" Line="50" Column="6" />
+      <File FileName="Assets/Scripts/Manager/GameManager.cs" Line="3" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="83b68c1a-7fb2-41f9-bcda-443d96195be5" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

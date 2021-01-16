@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Obstacles
+  - Enemies
+  - Trees
+  - EnemiesTag
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Obstacles
+  - Player
+  - Trees
+  - Enemies
+  - NewUI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 273780053
+    locked: 0
+  - name: Player
+    uniqueID: 2464010921
+    locked: 0
+  - name: Trees
+    uniqueID: 2894705511
+    locked: 0
+  - name: UI
+    uniqueID: 2558894457
+    locked: 0
