@@ -61,28 +61,28 @@ namespace UnityEditor
         }
     }
 
-    [CustomEditor(typeof(PrefabBrush))]
-    public class PrefabBrushEditor : UnityEditor.Tilemaps.GridBrushEditorBase
-    {
-        private PrefabBrush prefabBrush { get { return target as PrefabBrush; } }
+    // [CustomEditor(typeof(PrefabBrush))]
+    // public class PrefabBrushEditor : UnityEditor.Tilemaps.GridBrushEditorBase
+    // {
+    //     private PrefabBrush prefabBrush { get { return target as PrefabBrush; } }
 
-        private SerializedProperty m_Prefabs;
-        private SerializedObject m_SerializedObject;
+    //     private SerializedProperty m_Prefabs;
+    //     private SerializedObject m_SerializedObject;
 
-        protected void OnEnable()
-        {
-            m_SerializedObject = new SerializedObject(target);
-            m_Prefabs = m_SerializedObject.FindProperty("m_Prefabs");
-        }
+    //     protected void OnEnable()
+    //     {
+    //         m_SerializedObject = new SerializedObject(target);
+    //         m_Prefabs = m_SerializedObject.FindProperty("m_Prefabs");
+    //     }
 
-        public override void OnPaintInspectorGUI()
-        {
-            m_SerializedObject.UpdateIfRequiredOrScript();
-            prefabBrush.m_PerlinScale = EditorGUILayout.Slider("Perlin Scale", prefabBrush.m_PerlinScale, 0.001f, 0.999f);
-            prefabBrush.m_Z = EditorGUILayout.IntField("Position Z", prefabBrush.m_Z);
+    //     public void OnPaintInspectorGUI()
+    //     {
+    //         m_SerializedObject.UpdateIfRequiredOrScript();
+    //         prefabBrush.m_PerlinScale = EditorGUILayout.Slider("Perlin Scale", prefabBrush.m_PerlinScale, 0.001f, 0.999f);
+    //         prefabBrush.m_Z = EditorGUILayout.IntField("Position Z", prefabBrush.m_Z);
 
-            EditorGUILayout.PropertyField(m_Prefabs, true);
-            m_SerializedObject.ApplyModifiedPropertiesWithoutUndo();
-        }
-    }
+    //         EditorGUILayout.PropertyField(m_Prefabs, true);
+    //         m_SerializedObject.ApplyModifiedPropertiesWithoutUndo();
+    //     }
+    // }
 }
